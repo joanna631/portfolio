@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Joanna - Portfolio</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2230%22%20fill%3D%22%23F7DC5F%22/%3E%3Cellipse%20cx%3D%2223%22%20cy%3D%2226%22%20rx%3D%224%22%20ry%3D%226%22%20fill%3D%22%23222%22/%3E%3Cellipse%20cx%3D%2241%22%20cy%3D%2226%22%20rx%3D%224%22%20ry%3D%226%22%20fill%3D%22%23222%22/%3E%3Cpath%20d%3D%22M18%2040c4%209%2024%209%2028%200%22%20fill%3D%22none%22%20stroke%3D%22%23222%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Bebas+Neue&family=Inknut+Antiqua:wght@400;500&display=swap" rel="stylesheet">
@@ -41,7 +42,7 @@ nav a:hover,nav a.on{border-color:var(--y)}
 .calm .rv{opacity:1;translate:none}
 
 /* ===== hero ===== */
-.hero{position:relative;height:clamp(620px,calc(100svh - clamp(52px,4.2vw,68px) + 60px),900px);overflow:hidden}
+.hero{position:relative;height:clamp(560px,calc(100svh - clamp(52px,4.2vw,68px)),1100px);overflow:hidden}
 .hero .deco{translate:0 calc(var(--hp,0)*40px)}
 .hero h1{position:absolute;z-index:3;left:50%;top:41%;width:92%;text-align:center;font-size:clamp(1.7rem,2.7vw,3.2rem);font-weight:500;letter-spacing:-.005em;line-height:1.15;translate:-50% calc(-50% + var(--hp,0)*110px);opacity:calc(1 - var(--hp,0)*1.15);animation:fade .9s .3s backwards}
 @keyframes fade{from{opacity:0;translate:-50% calc(-50% + 16px)}}
@@ -269,7 +270,7 @@ dialog::backdrop{background:rgba(20,20,20,.5);backdrop-filter:blur(3px)}
 .ks .ic figure{width:var(--fw)}.ks .ic img{width:100%;height:auto}.ks .ic.drag{scroll-snap-type:none}}
 .ks .slide>p,.sfl li{text-align:justify;hyphens:none}
 .ks .kfs{position:relative}.ks .slide:not(.on){position:absolute;left:0;right:0;top:0}
-@media (min-width:861px){.ch{--hh:clamp(620px,calc(100svh - clamp(52px,4.2vw,68px) + 60px),900px);height:var(--hh)}.cph{width:min(43%,calc(var(--hh)*.84))}}
+@media (min-width:861px){.ch{--hh:clamp(560px,calc(100svh - clamp(52px,4.2vw,68px)),1100px);height:var(--hh)}.cph{width:min(43%,calc(var(--hh)*.84))}}
 @media (min-width:861px){.ks .kfb{translate:0 calc(-50% + clamp(28px,3.4vw,52px))}}
 @media (min-width:861px){#case .ks .kfb{top:50%;translate:0 -50%}}
 
